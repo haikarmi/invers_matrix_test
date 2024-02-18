@@ -4,6 +4,7 @@ import numpy as np
 
 
 def matrix_inverse(matrix):
+
     counter = 0
     print(bcolors.OKBLUE,
           "=================== Finding the inverse of a non-singular matrix using elementary row operations ===================\n",
@@ -119,6 +120,10 @@ square_matrix = np.array([[1, 10, -10],
                           [0, 4, 6],
                           [0, 1, 9]])
 if square_matrix is not None:
+    #the name group
+    print(
+        "the git link:https://github.com/haikarmi/invers_matrix_test.git\ngroup:Almog Babila-209477678, Hai karmi-207265687, Yagel Batito-318271863, Meril Hasid-324569714\n date :19/02/24 \n student: hai karmi id: 207265687")
+
     print("Entered square matrix:")
     print(square_matrix)
 
@@ -132,7 +137,3 @@ if square_matrix is not None:
 
     except ValueError as e:
         print(str(e))
-    print(
-        "the git link:https://github.com/haikarmi/invers_matrix_test.git\ngroup:Almog Babila, Hai karmi, Yagel Batito, Meril Hasid\nstudent:hai karmi  207265687")
-
-
